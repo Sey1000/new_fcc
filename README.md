@@ -10,14 +10,18 @@ Auto-generates backbone for FreeCodeCamp projects
 
 ## Usage
 Inside a folder you want your project to live  
-`mkdir YOUR_PROJECT_NAME`  
-`cd YOUR_PROJECT_NAME`  
-`newFCC new`
+```
+mkdir YOUR_PROJECT_NAME
+cd YOUR_PROJECT_NAME
+newFCC new
+```
 
 For example,  
-`mkdir random_quote_machine`  
-`cd random_quote_machine`  
-`newFCC new`  
+```
+mkdir random_quote_machine
+cd random_quote_machine 
+newFCC new
+```
 
 ## Behind story
 I got sick of using Codepen for FCC API projects, so I decided to take advantage of gh-pages branches instead. But I didn't want to waste so much time writing backbone of html, css, js, and setting up Github repo, hence this ruby project that automates the process.
