@@ -41,3 +41,6 @@ newFCC new
 I got sick of using Codepen for FCC API projects, so I decided to take advantage of gh-pages branches instead. But I didn't want to waste so much time writing backbone of html, css, js, and setting up Github repo, hence this ruby project that automates the process.
 
 ![automate all the things](https://avatars2.githubusercontent.com/u/16477209?v=4&s=200)
+
+## Desclaimer
+Please feel free to use this and modify the newFCC.rb file to meet your need!
