@@ -1,5 +1,5 @@
 # newFCC
-Auto-generates backbone for FreeCodeCamp projects
+Auto-generates backbone for FreeCodeCamp (or any static page) projects
 
 ## Installation
 0. You need Ruby and [hub](https://hub.github.com/)
@@ -9,12 +9,13 @@ Auto-generates backbone for FreeCodeCamp projects
 3. `ln -s $PWD/newFCC.rb /usr/local/bin/newFCC`
 
 ## Usage
-Inside a folder you want your project to live  
+Run the command inside a folder you want your project to live  
 ```
 mkdir YOUR_PROJECT_NAME
 cd YOUR_PROJECT_NAME
 newFCC new
 ```
+...and that's all!  
 
 For example,  
 ```
@@ -34,6 +35,7 @@ newFCC new
    - Bootstrap js
 4. git add, commit
 5. create github repo and push to gh-pages branch
+6. Now your project is availale at YOUR_GITHUB_USERNAME.github.io/YOUR_PROJECT_NAME
 
 ## Behind story
 I got sick of using Codepen for FCC API projects, so I decided to take advantage of gh-pages branches instead. But I didn't want to waste so much time writing backbone of html, css, js, and setting up Github repo, hence this ruby project that automates the process.
