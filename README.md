@@ -23,6 +23,18 @@ cd random_quote_machine
 newFCC new
 ```
 
+## Result
+`newFCC new` does a couple things:  
+1. initialize git
+2. create and switch to gh-pages branch
+3. create index.html, style.css, application.js files with these cdn included
+   - Bootstrap 4
+   - Font-awesome
+   - jQuery
+   - Bootstrap js
+4. git add, commit
+5. create github repo and push to gh-pages branch
+
 ## Behind story
 I got sick of using Codepen for FCC API projects, so I decided to take advantage of gh-pages branches instead. But I didn't want to waste so much time writing backbone of html, css, js, and setting up Github repo, hence this ruby project that automates the process.
 
